@@ -17,4 +17,4 @@ app.use(express.json());
 app.use("/usuario", routerUsuario);
 app.use("/caminhao",routerCaminhao)
 
-app.listen(porta)
+app.listen(porta|| 3000)
